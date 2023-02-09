@@ -4,7 +4,7 @@
   font-family: "Open Sans", sans-serif;
 }
 :root{
---fondo header:#040404;
+--fondo-header:#040404;
 --fondo-hero:#292929;
 --color-morado:#654682;
 --color-rojo:#f74f4c;
@@ -17,8 +17,16 @@
 --fondo-download: #292929;
 --color-footer:#111111;
 }
+
+.nav-item{
+	color: var(--color-rojo);
+}
+header{
+	background:  var(--fondo-header);
+}
+
 body{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 	color: var(--color-base);
 	font-weight: 400;
@@ -49,6 +57,11 @@ body{
 	font-weight: 600;
 }
 
+.btnsm{
+	background-color: var(--color-rojo);
+	color: var(--color-letragris);
+	border-radius: 25px;
+}
 .btn-principal{
 	background-color: var(--color-rojo);
 	padding: 5px 30px;
@@ -58,6 +71,17 @@ body{
 	border-radius: 25px;
 	letter-spacing: 1px;
 	font-weight: 100;
+}
+.btn-forms{
+	background-color: var(--color-rojo);
+	padding: 5px 30px;
+	color: var(--color-letragris);
+	font-size: 12px;
+	text-transform: uppercase;
+	border-radius: 25px;
+	letter-spacing: 1px;
+	font-weight: 100;
+	
 }
 .btn-principal:hover{
 	background-color: var(--color-rojo);
@@ -94,6 +118,89 @@ body{
 	letter-spacing: 1px;
 	color: var(--color-letragris);
 }
-#features .caja{
-	background-color: #db4437;
+.textoli{
+	color: var(--color-letragris);
+	
+}
+#features2{
+	background-color: var(--fondo-features1);
+	padding: 5% 0 0;
+	font-weight: 300;
+	
+}
+#features2 h3{
+	font-size: 22px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	color: var(--color-letragris);
+	background: var(--color-rojo);
+	height: auto;
+	width: 120px;
+}
+#features2 h5{
+	font-size: 22px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	color: var(--color-letragris);
+	background: var(--color-amarillo);
+	height: auto;
+	width: 120px;
+}
+#features2 h2{
+	font-size: 40px;
+	text-align: left;
+	font-weight: 100;
+	letter-spacing: 1px;
+	color: var(--color-letragris);
+}
+#features2 p{
+	font-size: 15px;
+	text-align: left;
+	font-weight: 100;
+	letter-spacing: 1px;
+	color: var(--color-letragris);
+}
+#features2 h4{
+	font-size: 22px;
+	text-align: left;
+	font-weight: 100;
+	letter-spacing: 1px;
+	color: var(--color-letragris);
+}
+#available{
+	background-color: var(--fondo-available);
+	padding: 5% 0 0;
+	font-weight: 300;
+	
+}
+#available h2{
+	font-size: 40px;
+	text-align: right;
+	font-weight: 100;
+	letter-spacing: 1px;
+	color: var(--color-letragris);
+}
+#available p{
+	font-size: 20px;
+	text-align: right;
+	font-weight: 100;
+	letter-spacing: 1px;
+	color: var(--color-letragris);
+}
+#Nombre{
+	text-align: center;
+	background-color: var(--color-footer); 
+	color: var(--color-letragris);
+}
+#form{
+	background: var(--fondo-download);
+	color: var(--color-letragris);
+	
+}
+.form-control{
+	background: var(--fondo-download);
+		
+}
+.nav-link.active{
+	color: aqua
 }
